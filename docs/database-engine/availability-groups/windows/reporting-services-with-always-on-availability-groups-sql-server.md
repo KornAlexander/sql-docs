@@ -163,7 +163,7 @@ helpviewer_keywords:
   
 -   The execution of background processing that would have normally been triggered to run during the period of the failover will not occur because SQL Server Agent will not be able to write data into the report server database and this data will not be synchronized to the new primary replica.  
   
--   After the database failover completes and after the report server service is re-started, SQL Server Agent jobs will be re-created automatically. Until the SQL agent jobs are recreated, any background executions associated with SQL Server Agent jobs will not be processed. This includes [!INCLUDE[ssRSnoversion](../../../includes/ssrsnoversion-md.md)] subscriptions, schedules, an snapshots.  
+-   After the database failover completes and after the report server service is re-started, SQL Server Agent jobs will be re-created automatically. Until the SQL agent jobs are recreated, any background executions associated with SQL Server Agent jobs will not be processed. This includes [!INCLUDE[ssRSnoversion](../../../includes/ssrsnoversion-md.md)] subscriptions, schedules, and snapshots.  
   
 ## See Also  
  [SQL Server Native Client Support for High Availability, Disaster Recovery](../../../relational-databases/native-client/features/sql-server-native-client-support-for-high-availability-disaster-recovery.md)   
